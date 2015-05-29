@@ -9,10 +9,6 @@ public class AlarmStore
         public int uniqueID;
         public String name;
 
-        public void setID(int id)
-        {
-                this.uniqueID=id;
-        }
         public int getId()
         {
                 return uniqueID;

@@ -30,7 +30,6 @@ public class AlarmUsers extends ArrayAdapter<AlarmSave>
              TextView alarmHour=(TextView) convertView.findViewById(R.id.alarmHour);
              TextView alarmMin=(TextView) convertView.findViewById(R.id.alarmMin);
              TextView alarmName=(TextView) convertView.findViewById(R.id.alarmName);
-           //  TextView contactName=(TextView) convertView.findViewById(R.id.contatName);
              TextView contactNumber=(TextView) convertView.findViewById(R.id.contatNumber);
 
              alarmID.setText(alarmSave.id + "");
@@ -38,7 +37,6 @@ public class AlarmUsers extends ArrayAdapter<AlarmSave>
              alarmHour.setText(alarmSave.timeHour + ":Hr");
              alarmMin.setText(alarmSave.timeMinute + ":Min");
              contactNumber.setText(ContactDBHelper.KEY_NAME + "");
-             //contactNumber.setText(alarmSave.getID() + "");
              return convertView;
       }
 }

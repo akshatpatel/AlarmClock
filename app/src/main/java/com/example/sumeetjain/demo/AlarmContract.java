@@ -10,7 +10,6 @@ public final class AlarmContract
 
     public AlarmContract()
     {
-
     }
         public static abstract class Alarm implements BaseColumns
         {
@@ -23,7 +22,6 @@ public final class AlarmContract
                 public static final String COLUMNNAMEALARMTONE = "tone";
                 public static final String COLUMNNAMEALARMENABLED = "isEnabled";
                 public static final String COLUMNNAMECONTACTID= "id";
-
 
         }
 }

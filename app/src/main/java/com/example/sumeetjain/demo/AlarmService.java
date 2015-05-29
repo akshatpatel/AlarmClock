@@ -33,7 +33,6 @@ public class AlarmService extends Service
             Intent i = new Intent(this, MyAlarmReceiver.class);
             PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0, i, 0);
             Calendar test = Calendar.getInstance();
-//        test.setTimeInMillis(intent.getLongExtra(AlarmDisplayActivity.TIMETOSEND, 0));
             int hour = test.MINUTE;
             int minute = test.HOUR_OF_DAY;
             alarmManager.set(AlarmManager.RTC_WAKEUP, intent.getLongExtra(AlarmDisplayActivity.TIMETOSEND, 0), pendingIntent);

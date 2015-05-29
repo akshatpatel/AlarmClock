@@ -40,7 +40,6 @@ public class AlarmDetailsActivity extends ActionBarActivity
                    timePicker.setCurrentHour(alarmDetails.timeHour);
                    edtName.setText(alarmDetails.name);
              }
-
     }
 
     @Override

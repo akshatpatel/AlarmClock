@@ -89,7 +89,6 @@ public final class AlarmDBHelper extends SQLiteOpenHelper
             {
                     return alarmList;
             }
-
             return null;
     }
 
@@ -112,50 +111,7 @@ public final class AlarmDBHelper extends SQLiteOpenHelper
             db.insert(AlarmContract.Alarm.TABLENAME, null, values);
             db.close();
     }
-
-    public void ContentValues(AlarmSave model)
-    {
-            SQLiteDatabase db = this.getWritableDatabase();
-            ContentValues values = new ContentValues();
-            values.put(AlarmContract.Alarm.COLUMNNAMEALARMNAME, model.name);
-            values.put(AlarmContract.Alarm.COLUMNNAMEALARMTIMEHOUR, model.timeHour);
-            values.put(AlarmContract.Alarm.COLUMNNAMEALARMTIMEMINUTE, model.timeMinute);
-            values.put(AlarmContract.Alarm.COLUMNNAMEALARMTONE, model.alarmTone != null ? model.alarmTone.toString() : "");
-            values.put(AlarmContract.Alarm.COLUMNNAMEALARMENABLED, model.isEnabled);
-            values.put(AlarmContract.Alarm.COLUMNNAMECONTACTID, model.id);
-            db.insert(AlarmContract.Alarm.TABLENAME, null, values);
-            db.close();
-            return;
-    }
 }
-
-//AlarmDBHelper alarmDBHelper=
-
-   // public long createAlarm(AlarmSave model) {
-     //   ContentValues values;
-       // values = new ContentValues(model);
-        //return getWritableDatabase().insert(AlarmContract.Alarm.TABLENAME, null, values);
-        //}
-        // public long updateAlarm(AlarmSave model) {
-        //   ContentValues values = ContentValues(model);
-        // return getWritableDatabase().update(AlarmContract.Alarm.TABLENAME, values, AlarmContract.Alarm._ID + " = ?", new String[]{String.valueOf(model.id)});
-
-//}
-
-// public boolean insertValues(AlarmSave model) {
-//   boolean createSuccessful = false;
-// SQLiteDatabase db=this.getWritableDatabase();
-//ContentValues values = new ContentValues();
-//values.put(AlarmContract.Alarm.COLUMNNAMEALARMNAME, model.name);
-//values.put(AlarmContract.Alarm.COLUMNNAMEALARMTIMEHOUR, model.timeHour);
-//values.put(AlarmContract.Alarm.COLUMNNAMEALARMTIMEMINUTE, model.timeMinute);
-//values.put(AlarmContract.Alarm.COLUMNNAMEALARMTONE, model.alarmTone != null ? model.alarmTone.toString() : "");
-//values.put(AlarmContract.Alarm.COLUMNNAMEALARMENABLED, model.isEnabled);
-// values.put(AlarmContract.Alarm.COLUMNNAMECONTACTID, model.id);
-// db.insert(AlarmContract.Alarm.TABLENAME,null,values);
-//db.close();
-//return createSuccessful;
-//}
 
 
 

@@ -8,7 +8,6 @@ import java.util.ArrayList;
  */
 public class AlarmSave
 {
-
         public int id;
         public int timeHour;
         public int timeMinute;
@@ -21,19 +20,9 @@ public class AlarmSave
         private ArrayList<AlarmStore> lAlarms;
         public int conId;
 
-        public void setConId(int conID)
-        {
-            this.conId=conID;
-        }
-
     public AlarmSave()
         {
                 lAlarms = new ArrayList<AlarmStore>();
-        }
-
-        public int getID()
-        {
-            return this.id;
         }
 
         public void setId(int id)
