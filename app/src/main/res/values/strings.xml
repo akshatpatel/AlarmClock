@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //string values for contacts
+
+    <string name="app_name">Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="asction_settings">Settings</string>
+    <string name="Set_cnct">extract contacts</string>
+    <string name="label_name">Name</string>
+    <string name="label_address">Address</string>
+    <string name="title_activity_contact_app">ContactApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact_edit">ContactEdit</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_contact__main">Contact_MainActivity</string>
+    <string name="title_activity_alarm__main">Alarm_MainActivity</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+
+    //string values for alarmDetails
+
+    <string name="title_activity_alarm_service">AlarmService</string>
+    <string name="set_alarm">SET ALARM</string>
+    <string name="add_button">ADD</string>
+    <string name="show_button">SHOW</string>
+    <string name="ringtime">RING TIME</string>
+    <string name="ringtime_blank">BLANK SCREE</string>
+    <string name="setting_time">SET TIME</string>
+    <string name="ringdate">RING DATE</string>
+    <string name="ringdate_blank">BLANLK</string>
+    <string name="setting_date">SET DATE</string>
+    <string name="ringcontent">SET THE CONTENT</string>
+    <string name="ringselect">SELECT RING</string>
+    <string name="ringselectTitle">CHOOSE  TITLE:</string>
+    <string name="button_ringselect">SELECT </string>
+    <string name="ringname">CHOOSE A NAME</string>
+    <string name="button_ringstart">START THE RING</string>
+    <string name="ringing">THE BELL IS RINGING！</string>
+    <string name="buttoncancel">CLICK ON CANCEL</string>
+    <string name="ringset">SET RING</string>
+    <string name="setvibrate">VIBRATOR</string>
+    <string name="description">ALARM CLOCK</string>
+    <string name="defaultRing">THIS IS THE DEFAULT RING</string>
+    <string name="notificationText1">NOTIFICATION_TONE 1</string>
+    <string name="notificationText2">NOTIFICATION_TONE 2</string>
+    <string name="notificationText3">NOTIFICATION_TONE 3</string>
+    <string name="notificationText4">NOTIFICATION_TONE 4</string>
+    <string name="notificationText5">NOTIFICATION_TONE 5</string>
+    <string name="notificationText6">NOTIFICATION6_TONE </string>
+    <string name="notify_button">NOTIFICATION BUTTON CLICKED</string>
+    <string name="title_activity_activity__ring">Activity_RIng</string>
+    <string name="title_activity_alarm_list">AlarmListActivity</string>
+    <string name="title_activity_alarm_detail">AlarmDetailActivity</string>
+    <string name="title_activity_alarm_details">AlarmDetailsActivity</string>
+    <string name="title_activity_display">displayActivity</string>
+
+</resources>

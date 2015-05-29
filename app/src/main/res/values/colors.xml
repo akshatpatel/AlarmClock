@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#e5e5e5</color>
+    <color name="btnadd_color">#ff3333</color>
+    <color name="btshow_color">#ffff66</color>
+    <color name="textcolor">#fff</color>
+    <color name="trasparent">#0000</color>
+    <color name="lightblue">#6666ff</color>
+    <color name="darkblue">#0000ff</color>
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="red">#e50000</color>
+    <color name="green">#198c19</color>
+    <color name="light_green">#4ca64c</color>
+    <color name="lightGreen">#99cc99</color>
+    <color name="lightred">#ff4c4c</color>
+</resources>
